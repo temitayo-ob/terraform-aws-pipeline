@@ -5,7 +5,7 @@ provider "aws" {
 terraform {
   backend "s3" {
     bucket = "cicd-class"
-    key    = "terraform.tfstate"
+    key    = "myterraformbucket-tayo1"
     region = "eu-west-2"
   }
 }
